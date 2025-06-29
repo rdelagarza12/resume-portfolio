@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         ]
     }
 ], {
-    basename: import.meta.env.PROD ? '/Resume-Portfolio' : '/'
+    basename: '/Resume-Portfolio'
 });
 
 export default router;

@@ -6,8 +6,8 @@ import Skill from "../components/SkillContainer";
 import { 
   SiHtml5, SiCss3, SiJavascript, SiReact,
   SiPython, SiDjango, SiNginx, SiGunicorn,
-  SiPostgresql, SiMysql, SiMicrosoft,
-  SiGit, SiLinux, SiBootstrap, SiJupyter,
+  SiPostgresql, SiMysql, SiGit,
+  SiLinux, SiBootstrap, SiJupyter,
   SiTableau, SiDotnet
 } from 'react-icons/si';
 import { DiCssdeck } from 'react-icons/di';

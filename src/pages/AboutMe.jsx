@@ -6,7 +6,7 @@ const AboutMe = () => {
     return (
         <div className="about-me-card">
             <div className="intro-card about-me-section">
-                <img className="headshot-img" src="./src/assets/headshot.jpg"></img>
+                <img className="headshot-img" src="/Resume-Portfolio/headshot.jpg" alt="headshot-image"></img>
                 <div className="who-am-i">
                     <h1>Who am I?</h1>
                     <h3>Hi!, I'm Rogelio</h3>

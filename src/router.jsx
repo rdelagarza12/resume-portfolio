@@ -6,7 +6,6 @@ import Projects from './pages/Projects.jsx'
 import Skills from './pages/Skills.jsx'
 import Resume from "./pages/Resume.jsx";
 
-
 const router = createBrowserRouter([
     {
         path : '/',
@@ -34,6 +33,8 @@ const router = createBrowserRouter([
             }
         ]
     }
-])
+], {
+    basename: '/Resume-Portfolio'
+});
 
 export default router;

@@ -10,6 +10,31 @@
   border-right: 1px solid #21262d;
 }
 
+/* Mobile menu toggle button - hidden by default */
+.mobile-menu-toggle {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1001;
+  background-color: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 0.75rem;
+  color: #c9d1d9;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.mobile-menu-toggle:hover {
+  background-color: #30363d;
+}
+
+.mobile-menu-toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
 /* All links inside nav */
 .nav-link {
   font-family: "Fira Code", monospace;
@@ -36,4 +61,65 @@
   color: #ffffff;
   border: 2px solid #29b6f6;
   background-color: #161b22;
+}
+
+/* -------------------- MOBILE RESPONSIVE --------------------- */
+@media (max-width: 768px) {
+  /* Show mobile toggle button */
+  .mobile-menu-toggle {
+    display: block;
+  }
+  
+  /* Transform nav-bar into mobile overlay */
+  .nav-bar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 280px;
+    padding: 4rem 1rem 2rem 1rem;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    border-right: 1px solid #21262d;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background-color: #0d1117;
+  }
+  
+  /* Show nav when open */
+  .nav-bar.mobile-open {
+    transform: translateX(0);
+  }
+  
+  /* Mobile backdrop */
+  .mobile-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .mobile-backdrop.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /* Adjust nav links for mobile */
+  .nav-link {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 1rem 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
 }

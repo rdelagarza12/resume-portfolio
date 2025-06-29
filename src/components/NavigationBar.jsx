@@ -10,44 +10,63 @@ const pages = [
   { title: "Projects", location: "/Projects" },
 ];
 
-export default function NavigationBar() {
+export default function NavigationBar({ isMobileMenuOpen, toggleMobileMenu, closeMobileMenu }) {
   return (
-    <nav className="nav-bar">
-      {/* Internal app routes */}
-      {pages.map(({ title, location }) => (
-        <NavLink
-          key={title}
-          to={location}
-          end
+    <>
+      {/* Mobile backdrop */}
+      <div 
+        className={`mobile-backdrop ${isMobileMenuOpen ? 'show' : ''}`}
+        onClick={closeMobileMenu}
+      />
+
+      {/* Navigation bar */}
+      <nav className={`nav-bar ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
+        {/* Internal app routes */}
+        {pages.map(({ title, location }) => (
+          <NavLink
+            key={title}
+            to={location}
+            end
+            className={({ isActive }) =>
+              "nav-link" + (isActive ? " active" : "")
+            }
+            onClick={closeMobileMenu} // Close menu when link is clicked
+          >
+            {title}
+          </NavLink>
+        ))}
+        <NavLink 
+          to="/Resume" 
           className={({ isActive }) =>
             "nav-link" + (isActive ? " active" : "")
           }
+          onClick={closeMobileMenu}
         >
-          {title}
+          Resume
         </NavLink>
-      ))}
-        <NavLink to="/Resume" className={({ isActive }) =>
-            "nav-link" + (isActive ? " active" : "")
-          }>Resume</NavLink>
-      {/* External links */}
-      <a
-        href="https://www.linkedin.com/in/rogeliodelagarza3901"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="nav-link"
-      >
-        <FaLinkedin style={{ marginRight: "0.5rem" }} />
-        LinkedIn
-      </a>
-      <a
-        href="https://github.com/rdelagarza12"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="nav-link"
-      >
-        <FaGithub style={{ marginRight: "0.5rem" }} />
-        GitHub
-      </a>
-    </nav>
+        
+        {/* External links */}
+        <a
+          href="https://www.linkedin.com/in/rogeliodelagarza3901"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link"
+          onClick={closeMobileMenu}
+        >
+          <FaLinkedin style={{ marginRight: "0.5rem" }} />
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/rdelagarza12"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link"
+          onClick={closeMobileMenu}
+        >
+          <FaGithub style={{ marginRight: "0.5rem" }} />
+          GitHub
+        </a>
+      </nav>
+    </>
   );
 }

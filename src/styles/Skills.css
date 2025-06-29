@@ -331,3 +331,33 @@
 .skills-page::-webkit-scrollbar-thumb:hover {
     background: #484f58;
 }
+
+/* Add this to your Skills.css file */
+
+.skill-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 0.3rem;
+}
+
+.skill-icon {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.2rem;
+}
+
+.skill-icon svg {
+  filter: drop-shadow(0 0 3px currentColor);
+}
+
+/* Responsive icon sizing */
+@media (max-width: 768px) {
+  .skill-icon {
+    font-size: 1.2rem;
+  }
+}

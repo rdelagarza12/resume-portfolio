@@ -1,11 +1,14 @@
 // src/components/SkillContainer.jsx
-import "../styles/Skills.css";
 
-export default function SkillContainer({ label, variant }) {
+export default function Skill({ label, variant, icon }) {
   return (
     <div className={`hex ${variant}`}>
-      {/* Swap in your <img /> or SVG icon here */}
-      <span className="label">{label}</span>
+      <div className="skill-content">
+        <div className="skill-icon">
+          {icon}
+        </div>
+        <span className="label">{label}</span>
+      </div>
     </div>
   );
 }

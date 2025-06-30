@@ -1,0 +1,43 @@
+.project-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    padding: 5rem;
+    overflow: scroll;
+
+}
+
+.single-project-container {
+    border: solid black 1px;
+    height: 30vh;
+    width: 20vw;
+    min-width: fit-content;
+
+}
+
+.project-title {
+    border: solid blue 1px;
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image {
+    height: 100%;
+    width: 100%;
+}
+
+.tools-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center space-evenly;
+    gap: .5rem;
+    align-items: center;
+}

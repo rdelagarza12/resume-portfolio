@@ -10,8 +10,6 @@ const AboutMe = () => {
                 <div className="who-am-i">
                     <h1>Who am I?</h1>
                     <h3>Hi!, I'm Rogelio</h3>
-                    
-                    <h3>About Me</h3>
                     <p>I am a Junior Full-Stack Developer with a strong leadership background honed during 8 years of military service. My passion for technology extends far beyond the workplace—I genuinely enjoy coding in my free time, constantly working on small projects that challenge me and expand my skill set.</p>
                     
                     <h3>Learning & Growth</h3>

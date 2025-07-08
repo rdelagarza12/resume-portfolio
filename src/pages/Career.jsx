@@ -5,22 +5,22 @@ const careerEventData = [
     {
         date : '2025',
         job : `Intro To Coding Instructor : Code Platoon`,
-        jobDescription : ` I delivered comprehensive Python programming instruction to complete beginners, guiding aspiring applicants from zero coding experience through fundamental programming concepts, data structures, and practical applications. This intensive course prepared students for Code Platoon's rigorous application process and live technical assessments. Recognizing that each student learns differently, I provided extensive one-on-one mentorship sessions and individualized support, adapting my teaching approach to meet diverse learning styles and ensuring every student had the tools needed to succeed in their coding journey.`
+        jobDescription : ` Delivered comprehensive Python programming instruction to complete beginners, guiding aspiring applicants from zero coding experience through fundamental programming concepts, data structures, and practical applications. This intensive course prepared students for Code Platoon's rigorous application process and live technical assessments. Recognizing that each student learns differently, I provided extensive one-on-one mentorship sessions and individualized support, adapting my teaching approach to meet diverse learning styles and ensuring every student had the tools needed to succeed in their coding journey.`
     },
     {
         date : '2024 : June - August',
         job : `Business Analyst : Accenture`,
-        jobDescription : `Led comprehensive process improvement initiatives across the entire team. My primary responsibility involved conducting thorough analysis of each team member's role and workflows, then standardizing and updating local work instructions to create consistent, efficient processes. Through extensive cross-functional collaboration and documentation, I successfully streamlined the reporting process, reducing redundancies and improving operational efficiency while ensuring compliance with healthcare data standards and regulatory requirements.`
+        jobDescription : `Led a comprehensive process improvement initiatives across the entire team. My primary responsibility involved conducting thorough analysis of each team member's role and workflows, then standardizing and updating local work instructions to create consistent, efficient processes. Through extensive cross-functional collaboration and documentation, I successfully streamlined the reporting process, reducing redundancies and improving operational efficiency while ensuring compliance with healthcare data standards and regulatory requirements.`
     },
     {
         date : '2024',
         job : `Foundations of Programming Instructor`,
-        jobDescription : `I taught a pre-course curriculum to accepted Code Platoon applicants, focusing heavily on object-oriented programming principles alongside HTML, CSS, JavaScript, Python, and data structures. This course prepared students for the main program's assessments, resulting in a 25% increase in success rates and significantly reducing the previously high failure rate in our cohorts.`
+        jobDescription : `Taught a pre-course curriculum to accepted Code Platoon applicants, focusing heavily on object-oriented programming principles alongside HTML, CSS, JavaScript, Python, and data structures. This course prepared students for the main program's assessments, resulting in a 25% increase in success rates and significantly reducing the previously high failure rate in our cohorts.`
     },
     {
         date : `2021 - 2024`,
         job : `Supervisor, Staff-Sergeant : United States Army`,
-        jobDescription : `I led a 30-person engineering team in demolition operations, data collection, and team leader training while managing over $400,000 in equipment. I cross-trained NATO personnel in American military and civil/structural engineering tasks, strengthening international partnerships and ensuring mission readiness across allied forces.`
+        jobDescription : `Led a 30-person engineering team in demolition operations, data collection, and team leader training while managing over $400,000 in equipment. I cross-trained NATO personnel in American military and civil/structural engineering tasks, strengthening international partnerships and ensuring mission readiness across allied forces.`
     }
 ]
 

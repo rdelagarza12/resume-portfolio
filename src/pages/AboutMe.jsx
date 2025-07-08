@@ -18,9 +18,11 @@ const AboutMe = () => {
                 <p>
                 I began my journey into tech through <strong>Code Platoon</strong>, a non-profit bootcamp that trains veterans, active-duty service members, and their spouses in full-stack software engineering. During the program, I gained hands-on experience with Python, JavaScript, HTML, CSS, PostgreSQL, and frameworks like React and Django. I also learned to deploy applications using EC2, Nginx, and Gunicorn.
                 </p>
-
                 <p>
-                After graduating, I returned as a <strong>Teaching Assistant</strong>, where my performance led to a role as a <strong>part-time instructor</strong>. In this role, I taught introductory courses such as Intro to Python and Programming Fundamentals.
+                After graduating from Code Platoon, I returned as a <strong>Teaching Assistant</strong>, where my dedication and performance quickly earned me a promotion to <strong>part-time instructor</strong>. In this role, I taught the foundational Foundations of Programming course, building strong relationships with students and honing my instructional approach.
+                </p>
+                <p>
+                My success in the classroom led to expanded responsibilities within a year and a half, including teaching the Intro to Coding in Python Live course—a pivotal program that became instrumental in our admissions process and significantly boosted enrollment numbers. Recognizing my impact on both student success and company growth, leadership promoted me to <strong>Lead Pre-Course Instructor</strong>. In this role, I now shape the entire pre-course experience, teaching all incoming applicants and transforming them into well-prepared Code Platoon candidates, directly contributing to higher completion rates and the organization's continued success.
                 </p>
 
             </div>

@@ -3,7 +3,7 @@ import { FaDownload, FaExternalLinkAlt } from "react-icons/fa";
 import "/src/styles/Resume.css";
 
 export default function Resume() {
-  const resumePath = "/Resume-Portfolio/rogelio-delagarza-resume.pdf";
+  const resumePath = "/resume-portfolio/rogelio-delagarza-resume.pdf";
 
   const handleDownload = () => {
     const link = document.createElement('a');

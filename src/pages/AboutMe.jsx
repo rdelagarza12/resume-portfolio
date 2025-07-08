@@ -10,7 +10,18 @@ const AboutMe = () => {
                 <div className="who-am-i">
                     <h1>Who am I?</h1>
                     <h3>Hi!, I'm Rogelio</h3>
-                    <p>I am a Junior Full-Stack Developer with a strong leadership background honed during 8 years of military service.</p>
+                    
+                    <h3>About Me</h3>
+                    <p>I am a Junior Full-Stack Developer with a strong leadership background honed during 8 years of military service. My passion for technology extends far beyond the workplace—I genuinely enjoy coding in my free time, constantly working on small projects that challenge me and expand my skill set.</p>
+                    
+                    <h3>Learning & Growth</h3>
+                    <p>I'm always open to learning new technologies and finding innovative ways to improve myself both personally and professionally. This growth mindset has been essential in my transition from military service to software development.</p>
+                    
+                    <h3>Gaming & Development</h3>
+                    <p>As an avid video game enthusiast, my love for games naturally led me to explore indie game development. I'm currently diving deep into Unity game engine and even experimenting with 3D game asset creation, combining my technical skills with creative expression.</p>
+                    
+                    <h3>Personal Life</h3>
+                    <p>When I'm not coding or gaming, I'm dedicated to maintaining my personal fitness and spending quality time with my family. These activities keep me grounded and provide the perfect balance to my technical pursuits.</p>
                 </div>
             </div>
             <div className="about-me-section">

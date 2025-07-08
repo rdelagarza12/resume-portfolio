@@ -10,7 +10,7 @@ const careerEventData = [
     {
         date : '2024 : June - August',
         job : `Business Analyst : Accenture`,
-        jobDescription : `Led a comprehensive process improvement initiatives across the entire team. My primary responsibility involved conducting thorough analysis of each team member's role and workflows, then standardizing and updating local work instructions to create consistent, efficient processes. Through extensive cross-functional collaboration and documentation, I successfully streamlined the reporting process, reducing redundancies and improving operational efficiency while ensuring compliance with healthcare data standards and regulatory requirements.`
+        jobDescription : `Led a comprehensive process improvement initiative across the entire team. My primary responsibility involved conducting thorough analyses of each team member's role and workflows, then standardizing and updating local work instructions to create consistent, efficient processes. Through extensive cross-functional collaboration and documentation, I successfully streamlined the reporting process, reducing redundancies and improving operational efficiency while ensuring compliance with healthcare data standards and regulatory requirements.`
     },
     {
         date : '2024',

@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         ]
     }
 ], {
-    basename: '/Resume-Portfolio'
+    basename: '/resume-rortfolio'
 });
 
 export default router;
